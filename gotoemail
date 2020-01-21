@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+<a href="./mail.html">mail.html</a>
+</body>
+</html>
