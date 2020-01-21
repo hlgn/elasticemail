@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "yuki19980812_2@yahoo.co.jp",
+    Password : "A6FE0F7961621831603A6EC9E1277821857D",
+    To : 'yuki19980812@yahoo.co.jp',
+    From : "yuki19980812_2@yahoo.co.jp",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+</script>
+</body>
+</html>
